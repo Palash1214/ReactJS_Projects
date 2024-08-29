@@ -7,7 +7,7 @@ export default function FooterCompo() {
   <>
  <div className='container footer'>
     <footer>
-        <p className='bg-dark text-bg-primary p-2 m-3 rounded-4'>Copyright @2000,Powered By Pravaish</p>
+        <p className='bg-dark text-bg-primary center p-2 m-3 rounded-4'>Copyright @2000,Powered By Pravaish</p>
     </footer>
 
  </div>

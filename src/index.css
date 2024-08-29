@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.card-footer {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    width: 100%; /* Ensure it spans the full width of the card */
+    box-sizing: border-box; /* Include padding in the element's width */
+  }
+  .card-body {
+    padding-bottom: 0; /* Adjust if necessary */
+  }
+  
+  .footer-compo-class { /* Replace with your footer component's class */
+    margin: 0; /* Remove margin if it's causing the issue */
+  }
+  
